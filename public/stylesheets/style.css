@@ -1,0 +1,35 @@
+
+body { padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #170f2f;
+  color: bisque;
+  /* Full height */
+  height: 100%;
+
+}
+
+a {
+  color: #00B7FF;
+}
+.btn-file {
+  cursor: pointer;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  display: block;
+}
+.box{
+  border: solid #7f8049 3px;
+  height: 500px;
+  max-width:750px;
+}
